@@ -19,7 +19,7 @@ function action(cmd, search){
             randomCall();
             break;
         default:
-        console.log("Your command was not recognized. Please try one of the follow: my-tweets, spotify-this-song, movie-this, or do-what-it-says.");
+        console.log("Your command was not recognized. Please try one of the following: my-tweets, spotify-this-song <song name>, movie-this <movie title>, or do-what-it-says.");
     }
 }
 
